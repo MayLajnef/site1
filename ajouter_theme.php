@@ -57,7 +57,7 @@
   if (!$ajout_theme)
   {
     echo "La requête a échoué. <br> Erreur : <br>".mysqli_error($connect);
-    echo "<br> <input type='button' onclick=\"window.location='ajout_theme.html'\" value='Réessayer d'ajouter un thème' />";
+    echo "<br> <input type='button' onclick=\"window.location='ajout_theme.html'\" value='Retour' />";
     exit();
   }
   else {
